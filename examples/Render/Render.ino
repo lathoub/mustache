@@ -1,15 +1,16 @@
 #define EX_DEBUG
 #define EX_DEBUG_LOGLEVEL EX_DEBUG_LOGLEVEL_VERBOSE
 
-#include <MUSTACHE.h>
+#include <Express.h>
 #include <mustache.h>
+using namespace EXPRESS_NAMESPACE;
 using namespace MUSTACHE_NAMESPACE;
 
 #include "index.h";
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
-MUSTACHE app;
+express app;
 
 void setup() {
   Serial.begin(115200);
