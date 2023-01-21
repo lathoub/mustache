@@ -4,7 +4,7 @@
 
 #include "namespace.h"
 
-BEGIN_EXPRESS_NAMESPACE
+BEGIN_MUSTACHE_NAMESPACE
 
 /// @brief 
 class mustache
@@ -86,9 +86,9 @@ public:
 
 /// @brief
 /// @return
-static RenderEngineCallback mustacheExpress()
+static RenderEngineCallback mustacheEXPRESS()
 {
     return mustache::renderFile;
 }
 
-END_EXPRESS_NAMESPACE
+END_MUSTACHE_NAMESPACE

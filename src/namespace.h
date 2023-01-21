@@ -1,11 +1,11 @@
 #pragma once
 
-#define EXPRESS_NAMESPACE                  express_
-#define BEGIN_EXPRESS_NAMESPACE            namespace EXPRESS_NAMESPACE {
-#define END_EXPRESS_NAMESPACE              }
+#define MUSTACHE_NAMESPACE                  mustache_
+#define BEGIN_MUSTACHE_NAMESPACE            namespace MUSTACHE_NAMESPACE {
+#define END_MUSTACHE_NAMESPACE              }
 
-#define USING_NAMESPACE_EXPRESS            using namespace EXPRESS_NAMESPACE;
+#define USING_NAMESPACE_MUSTACHE            using namespace MUSTACHE_NAMESPACE;
 
-BEGIN_EXPRESS_NAMESPACE
+BEGIN_MUSTACHE_NAMESPACE
 
-END_EXPRESS_NAMESPACE
+END_MUSTACHE_NAMESPACE

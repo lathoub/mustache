@@ -1,19 +1,19 @@
-# Express for Arduino
+# MUSTACHE for Arduino
 Fast, unopinionated, (very) minimalist web framework for Arduino
 
 ## Getting started
 
 ### Hello world example
 
-Embedded below is essentially the simplest Arduino Express app you can create. 
+Embedded below is essentially the simplest Arduino MUSTACHE app you can create. 
 
 ```cpp
-#include <Express.h> // <Ethernet.h> included in Express.h
-using namespace EXPRESS_NAMESPACE;
+#include <MUSTACHE.h> // <Ethernet.h> included in MUSTACHE.h
+using namespace MUSTACHE_NAMESPACE;
 
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
 
-express app;
+MUSTACHE app;
 
 void setup() {
   Ethernet.begin(mac); // no check for brevity
@@ -24,7 +24,7 @@ void setup() {
 
   app.listen(3000, []() { // creates and runs EthernetServer
     Serial.print(F("Example app listening on port "));
-    Serial.println(express.port);
+    Serial.println(MUSTACHE.port);
   });
 }
 

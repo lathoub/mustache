@@ -14,7 +14,7 @@ typedef dictionary<String, String> params_t;
 
 #include "namespace.h"
 
-BEGIN_EXPRESS_NAMESPACE
+BEGIN_MUSTACHE_NAMESPACE
 
 #include "settings.h"
 
@@ -111,4 +111,4 @@ enum Method
 #define HTTP_STATUS_LOOP_DETECTED 508
 #define HTTP_STATUS_NOT_EXTENDED 510
 
-END_EXPRESS_NAMESPACE
+END_MUSTACHE_NAMESPACE
