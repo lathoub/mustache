@@ -6,7 +6,7 @@
 
 BEGIN_MUSTACHE_NAMESPACE
 
-/// @brief 
+/// @brief
 class mustache
 {
 private:
@@ -40,6 +40,7 @@ private:
                 break;
 
             client.write(line + from, index - from - 1);
+            client.write('\n');
 
             from = index + 1;
 
@@ -57,7 +58,10 @@ private:
         }
 
         if (from < to)
+        {
             client.write(line + from, to - from);
+            client.write('\n');
+        }
     }
 
 public:
