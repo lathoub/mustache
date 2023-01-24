@@ -40,7 +40,6 @@ private:
                 break;
 
             client.write(line + from, index - from - 1);
-            client.write('\n');
 
             from = index + 1;
 
