@@ -23,5 +23,23 @@ app.get("/", [](request &req, response &res) {
 
 ```
 
+index::file
+
+```cpp
+class index {
+public:
+  static const char* file() {
+    return "<html>\n"
+           "<head>\n"
+           "<title>{{name}}</title>\n"
+           "</head>\n"
+           "<body>\n"
+           "<h2>{{name}} has {{value}} goats.</h2>\n"
+           "</body>\n"
+           "</html>";
+  }
+};
+```
+
 ## Dependencies
 [Express for Arduino](https://github.com/lathoub/express).
