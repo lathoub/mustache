@@ -1,5 +1,6 @@
 # Mustache for Express for Arduino
 Logic-less templates.
+{{variables}} only for the moment. {{#Sections}} will follow (all help is welcome)
 
 ## Getting started
 
