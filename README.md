@@ -1,5 +1,5 @@
 # Mustache for Express for Arduino
-
+Logic-less templates.
 
 ## Getting started
 
